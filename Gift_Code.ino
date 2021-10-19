@@ -19,6 +19,7 @@ int angle = 90;
 //sets up servo object
 Servo arm;
 
+// int to decide witch personality is active
 int who;
 
 
