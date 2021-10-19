@@ -66,7 +66,7 @@ void twitch() {
   }
 
 }
-
+                                                    // hehe nice
 
 // setup for meslion's personality
 void meslion() {
@@ -74,7 +74,7 @@ void meslion() {
   buttonRead = digitalRead(buttonPin);
 
   if (buttonRead == 1) {
-                                            // hehe nice
+    
     arm.write(angle);
 
   } else {
