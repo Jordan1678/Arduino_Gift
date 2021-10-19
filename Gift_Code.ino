@@ -19,6 +19,8 @@ int angle = 90;
 //sets up servo object
 Servo arm;
 
+int who;
+
 
 void setup() {
 
@@ -29,7 +31,7 @@ void setup() {
   // sets a random genarator for random() using noise from pin 0
   // making random() a bit more random
   randomSeed(analogRead(0));
-  int who = random(2);
+  who = random(2);
 
 }
 
