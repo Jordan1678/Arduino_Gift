@@ -19,15 +19,17 @@ int angle = 90;
 //sets up servo object
 Servo arm;
 
-// random int to deside what personality is active
-int who = random(2);
-
 
 void setup() {
 
   pinMode(buttonPin, INPUT);
   arm.attach(servoPin);
   Serial.begin(9600);
+  
+  // sets a random genarator for random() using noise from pin 0
+  // making random() a bit more random
+  randomSeed(analogRead(0));
+  int who = random(2);
 
 }
 
