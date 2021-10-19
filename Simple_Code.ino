@@ -1,3 +1,10 @@
+/*
+
+  By Jordan1678
+  https://github.com/Jordan1678/Arduino_Gift/
+  
+*/
+
 #include <Servo.h>
 
 // define Button pin and servo pin
